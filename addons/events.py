@@ -35,7 +35,7 @@ class Events:
         await self.bot.send_message(self.bot.log_channel, ":exclamation:", embed=embed)
 
     async def on_member_unban(self, server, member):
-        embed = discord.Embed(title=":anger: Member unbanned", description="<@{}> | {}#{} | {}".format(member.id, member.name, member.discriminator, member.id))
+        embed = discord.Embed(title=":Joy: Mmember has been forgiven", description="<@{}> | {}#{} | {}".format(member.id, member.name, member.discriminator, member.id))
         await self.bot.send_message(self.bot.log_channel, ":exclamation:", embed=embed)
 
 def setup(bot):
