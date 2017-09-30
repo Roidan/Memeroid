@@ -101,4 +101,4 @@ for extension in addons:
 
 # Execute
 print('Bot directory: ', dir_path)
-bot.run("MzI5Nzk1NjYzMjEyNTc2NzY5.DDXp2Q.rMDe6F841ROj-QWBECKm4NBYG8A")
+bot.run("MzYwODk1MDUxODI5NjA4NDU1.DLB-6Q.Gxc3VQUlcKd-DO9fUhTCS4MaWCk")
